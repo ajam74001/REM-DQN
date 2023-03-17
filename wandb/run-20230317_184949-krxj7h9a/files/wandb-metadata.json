@@ -1,0 +1,245 @@
+{
+    "os": "Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2023-03-17T15:49:51.398603",
+    "startedAt": "2023-03-17T15:49:49.152515",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "lane-change/my_REM/train.py",
+    "git": {
+        "remote": "https://github.com/ajam74001/RL_atari.git",
+        "commit": "80f6a786285616612c1e5155e90d0353ae632fb2"
+    },
+    "email": null,
+    "root": "/scratch/users/ajamshidi18/hpc_run/Ainaz/RL",
+    "host": "ai01.kuacc.ku.edu.tr",
+    "username": "ajamshidi18",
+    "executable": "/kuacc/users/ajamshidi18/.conda/envs/py38_env/bin/python",
+    "cpu_count": 40,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 1582.7747750000003,
+        "min": 1000.0,
+        "max": 3900.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 999.908,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 999.908,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3517.15,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3197.479,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 2499.847,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1395.874,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1073.76,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3599.853,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 2299.957,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1099.395,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1693.267,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1099.395,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 2500.0,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1019.592,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.213,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1015.777,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1026.915,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3589.63,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 2395.629,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1089.782,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 999.908,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3699.951,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1294.708,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 999.908,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.213,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.061,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.213,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3512.42,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 2499.847,
+            "min": 1000.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "total": 875.6806144714355,
+        "used": 58.42966842651367
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 15843721216
+        }
+    ],
+    "memory": {
+        "total": 503.38320541381836
+    }
+}

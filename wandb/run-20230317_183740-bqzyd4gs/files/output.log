@@ -1,0 +1,21 @@
+the action is: torch.Size([5, 1]) tensor([[4],
+        [3],
+        [4],
+        [4],
+        [4]]) torch.int64
+Traceback (most recent call last):
+  File "train.py", line 111, in <module>
+    est_q, greedy_idx, greedy_action = model(step['obs'].to(device), step['action'].to(device), coeffs) # inputs: state, act, random_coeff , returns: est_q, greedy_idx, greedy_action
+  File "/kuacc/users/ajamshidi18/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/REM.py", line 23, in forward
+    x= self.MLP(state)
+  File "/kuacc/users/ajamshidi18/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/kuacc/users/ajamshidi18/.local/lib/python3.7/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/kuacc/users/ajamshidi18/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/kuacc/users/ajamshidi18/.local/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument mat1 in method wrapper_addmm)
