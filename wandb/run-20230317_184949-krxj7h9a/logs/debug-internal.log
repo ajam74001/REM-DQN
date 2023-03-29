@@ -1,0 +1,251 @@
+2023-03-17 18:49:49,221 INFO    StreamThr :118840 [internal.py:wandb_internal():87] W&B internal server running at pid: 118840, started at: 2023-03-17 18:49:49.214092
+2023-03-17 18:49:49,228 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status
+2023-03-17 18:49:49,230 INFO    WriterThread:118840 [datastore.py:open_for_write():85] open: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/run-krxj7h9a.wandb
+2023-03-17 18:49:49,237 DEBUG   SenderThread:118840 [sender.py:send():334] send: header
+2023-03-17 18:49:49,344 DEBUG   SenderThread:118840 [sender.py:send():334] send: run
+2023-03-17 18:49:49,894 INFO    SenderThread:118840 [dir_watcher.py:__init__():216] watching files in: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files
+2023-03-17 18:49:49,895 INFO    SenderThread:118840 [sender.py:_start_run_threads():1065] run started: krxj7h9a with start time 1679068189.217462
+2023-03-17 18:49:49,896 DEBUG   SenderThread:118840 [sender.py:send_request():361] send_request: summary_record
+2023-03-17 18:49:49,900 INFO    SenderThread:118840 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-17 18:49:49,910 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: check_version
+2023-03-17 18:49:49,911 DEBUG   SenderThread:118840 [sender.py:send_request():361] send_request: check_version
+2023-03-17 18:49:50,198 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: run_start
+2023-03-17 18:49:50,901 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_created():275] file/dir created: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/wandb-summary.json
+2023-03-17 18:49:51,371 DEBUG   HandlerThread:118840 [system_info.py:__init__():31] System info init
+2023-03-17 18:49:51,372 DEBUG   HandlerThread:118840 [system_info.py:__init__():46] System info init done
+2023-03-17 18:49:51,373 INFO    HandlerThread:118840 [system_monitor.py:start():151] Starting system monitor
+2023-03-17 18:49:51,373 INFO    SystemMonitor:118840 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-17 18:49:51,374 INFO    HandlerThread:118840 [system_monitor.py:probe():172] Collecting system info
+2023-03-17 18:49:51,375 INFO    SystemMonitor:118840 [interfaces.py:start():168] Started cpu
+2023-03-17 18:49:51,377 INFO    SystemMonitor:118840 [interfaces.py:start():168] Started disk
+2023-03-17 18:49:51,378 INFO    SystemMonitor:118840 [interfaces.py:start():168] Started gpu
+2023-03-17 18:49:51,379 INFO    SystemMonitor:118840 [interfaces.py:start():168] Started memory
+2023-03-17 18:49:51,380 INFO    SystemMonitor:118840 [interfaces.py:start():168] Started network
+2023-03-17 18:49:51,398 DEBUG   HandlerThread:118840 [system_info.py:probe():195] Probing system
+2023-03-17 18:49:51,423 DEBUG   HandlerThread:118840 [system_info.py:_probe_git():180] Probing git
+2023-03-17 18:49:51,484 DEBUG   HandlerThread:118840 [system_info.py:_probe_git():188] Probing git done
+2023-03-17 18:49:51,485 DEBUG   HandlerThread:118840 [system_info.py:probe():241] Probing system done
+2023-03-17 18:49:51,485 DEBUG   HandlerThread:118840 [system_monitor.py:probe():181] {'os': 'Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.10', 'python': '3.8.5', 'heartbeatAt': '2023-03-17T15:49:51.398603', 'startedAt': '2023-03-17T15:49:49.152515', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'train.py', 'codePath': 'lane-change/my_REM/train.py', 'git': {'remote': 'https://github.com/ajam74001/RL_atari.git', 'commit': '80f6a786285616612c1e5155e90d0353ae632fb2'}, 'email': None, 'root': '/scratch/users/ajamshidi18/hpc_run/Ainaz/RL', 'host': 'ai01.kuacc.ku.edu.tr', 'username': 'ajamshidi18', 'executable': '/kuacc/users/ajamshidi18/.conda/envs/py38_env/bin/python', 'cpu_count': 40, 'cpu_count_logical': 40, 'cpu_freq': {'current': 1582.7747750000003, 'min': 1000.0, 'max': 3900.0}, 'cpu_freq_per_core': [{'current': 999.908, 'min': 1000.0, 'max': 3900.0}, {'current': 999.908, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 3517.15, 'min': 1000.0, 'max': 3900.0}, {'current': 3197.479, 'min': 1000.0, 'max': 3900.0}, {'current': 2499.847, 'min': 1000.0, 'max': 3900.0}, {'current': 1395.874, 'min': 1000.0, 'max': 3900.0}, {'current': 1073.76, 'min': 1000.0, 'max': 3900.0}, {'current': 3599.853, 'min': 1000.0, 'max': 3900.0}, {'current': 2299.957, 'min': 1000.0, 'max': 3900.0}, {'current': 1099.395, 'min': 1000.0, 'max': 3900.0}, {'current': 1693.267, 'min': 1000.0, 'max': 3900.0}, {'current': 1099.395, 'min': 1000.0, 'max': 3900.0}, {'current': 2500.0, 'min': 1000.0, 'max': 3900.0}, {'current': 1019.592, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.213, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 1015.777, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 1026.915, 'min': 1000.0, 'max': 3900.0}, {'current': 3589.63, 'min': 1000.0, 'max': 3900.0}, {'current': 2395.629, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 1089.782, 'min': 1000.0, 'max': 3900.0}, {'current': 999.908, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 3699.951, 'min': 1000.0, 'max': 3900.0}, {'current': 1294.708, 'min': 1000.0, 'max': 3900.0}, {'current': 999.908, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.213, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.061, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.213, 'min': 1000.0, 'max': 3900.0}, {'current': 3512.42, 'min': 1000.0, 'max': 3900.0}, {'current': 2499.847, 'min': 1000.0, 'max': 3900.0}], 'disk': {'total': 875.6806144714355, 'used': 58.42966842651367}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 15843721216}], 'memory': {'total': 503.38320541381836}}
+2023-03-17 18:49:51,486 INFO    HandlerThread:118840 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-17 18:49:51,486 INFO    HandlerThread:118840 [system_monitor.py:probe():185] Publishing system info
+2023-03-17 18:49:51,487 DEBUG   HandlerThread:118840 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-17 18:49:51,491 DEBUG   HandlerThread:118840 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-17 18:49:51,491 DEBUG   HandlerThread:118840 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-17 18:49:51,907 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_created():275] file/dir created: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/conda-environment.yaml
+2023-03-17 18:49:51,909 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_created():275] file/dir created: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/requirements.txt
+2023-03-17 18:49:59,669 DEBUG   HandlerThread:118840 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-17 18:49:59,675 INFO    HandlerThread:118840 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-17 18:49:59,716 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:49:59,717 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:49:59,718 DEBUG   SenderThread:118840 [sender.py:send():334] send: files
+2023-03-17 18:49:59,719 INFO    SenderThread:118840 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-03-17 18:49:59,739 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-17 18:49:59,740 DEBUG   SenderThread:118840 [sender.py:send_request():361] send_request: stop_status
+2023-03-17 18:49:59,947 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/conda-environment.yaml
+2023-03-17 18:49:59,948 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_created():275] file/dir created: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/wandb-metadata.json
+2023-03-17 18:49:59,980 DEBUG   SenderThread:118840 [sender.py:send():334] send: telemetry
+2023-03-17 18:50:00,153 DEBUG   SenderThread:118840 [sender.py:send():334] send: telemetry
+2023-03-17 18:50:00,528 INFO    Thread-16 :118840 [upload_job.py:push():143] Uploaded file /tmp/tmpbct2mt3lwandb/8e387zch-wandb-metadata.json
+2023-03-17 18:50:01,027 DEBUG   SenderThread:118840 [sender.py:send():334] send: telemetry
+2023-03-17 18:50:01,028 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:06,029 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:11,030 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:13,006 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_created():275] file/dir created: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:14,738 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:50:14,739 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:50:15,018 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:16,060 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:18,394 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:19,750 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:50:20,870 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:21,064 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:21,939 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/config.yaml
+2023-03-17 18:50:23,177 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:24,740 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:50:25,608 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:26,329 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:28,145 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:29,740 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:50:30,487 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:31,344 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:33,913 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:34,741 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:50:35,437 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:36,361 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:37,942 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:39,768 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:50:40,418 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:41,356 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:43,948 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:44,742 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:50:45,344 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:46,372 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:47,757 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:50,057 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:50:50,221 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:51,371 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:51,381 DEBUG   SystemMonitor:118840 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-17 18:50:51,383 DEBUG   SenderThread:118840 [sender.py:send():334] send: stats
+2023-03-17 18:50:52,764 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:55,047 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:50:55,136 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:50:56,444 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:50:57,574 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:00,065 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:00,256 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:01,449 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:02,680 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:04,866 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:05,001 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:06,447 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:07,537 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:09,844 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:10,034 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:11,488 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:12,462 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:14,865 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:14,984 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:16,486 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:17,439 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:19,888 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:20,114 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:21,520 DEBUG   SenderThread:118840 [sender.py:send():334] send: stats
+2023-03-17 18:51:21,526 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:22,360 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:24,810 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:24,822 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:26,546 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:27,258 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:29,733 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:29,853 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:31,495 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-17 18:51:31,497 DEBUG   SenderThread:118840 [sender.py:send():334] send: history
+2023-03-17 18:51:31,497 DEBUG   SenderThread:118840 [sender.py:send_request():361] send_request: summary_record
+2023-03-17 18:51:31,500 INFO    SenderThread:118840 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-17 18:51:31,540 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:32,192 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/wandb-summary.json
+2023-03-17 18:51:32,253 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:34,775 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:35,885 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:36,540 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:37,303 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:39,782 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:39,782 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:41,541 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:42,245 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:44,766 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:45,604 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:47,057 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:47,615 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:49,732 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:49,763 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:51,487 DEBUG   SenderThread:118840 [sender.py:send():334] send: stats
+2023-03-17 18:51:52,065 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:52,097 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:54,478 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:54,756 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:51:57,010 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:57,130 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:51:59,393 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:51:59,764 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:02,014 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:02,130 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:04,444 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:04,824 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:06,891 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:07,153 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:09,539 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:09,753 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:11,658 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:12,202 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:14,186 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:14,794 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:16,679 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:17,209 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:19,202 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:19,755 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:21,644 DEBUG   SenderThread:118840 [sender.py:send():334] send: stats
+2023-03-17 18:52:21,721 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:22,205 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:24,062 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:24,836 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:26,688 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:27,236 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:29,161 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:29,783 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:31,542 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:32,253 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:34,001 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:34,787 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:36,841 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:37,247 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:39,789 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:40,391 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:41,887 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:42,258 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:44,230 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:44,811 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:46,218 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-17 18:52:46,219 DEBUG   SenderThread:118840 [sender.py:send():334] send: history
+2023-03-17 18:52:46,219 DEBUG   SenderThread:118840 [sender.py:send_request():361] send_request: summary_record
+2023-03-17 18:52:46,715 INFO    SenderThread:118840 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-17 18:52:46,794 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/wandb-summary.json
+2023-03-17 18:52:47,252 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:47,990 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:49,394 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:49,759 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:51,801 DEBUG   SenderThread:118840 [sender.py:send():334] send: stats
+2023-03-17 18:52:51,903 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:52,253 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:54,417 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:54,760 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:52:57,002 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:57,300 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:52:59,528 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:52:59,760 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:01,949 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:02,291 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:04,469 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:04,772 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:06,929 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:07,292 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:09,781 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:10,572 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:11,933 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:12,312 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:14,350 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:14,769 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:16,725 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:17,292 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:19,268 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:19,763 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:21,678 DEBUG   SenderThread:118840 [sender.py:send():334] send: stats
+2023-03-17 18:53:22,300 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:23,017 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:24,351 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:24,768 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:26,685 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:27,307 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:29,270 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:29,764 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:31,712 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:32,317 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:34,110 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:34,765 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:36,464 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:37,357 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:38,864 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:39,827 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:41,400 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:42,463 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:43,862 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:44,816 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:46,425 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:47,448 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:48,915 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:49,856 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:51,829 DEBUG   SenderThread:118840 [sender.py:send():334] send: stats
+2023-03-17 18:53:52,385 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: status_report
+2023-03-17 18:53:52,413 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log
+2023-03-17 18:53:54,837 DEBUG   HandlerThread:118840 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-17 18:53:54,922 INFO    Thread-13 :118840 [dir_watcher.py:_on_file_modified():292] file/dir modified: /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_184949-krxj7h9a/files/output.log

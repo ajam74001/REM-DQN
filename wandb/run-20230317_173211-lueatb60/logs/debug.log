@@ -1,0 +1,26 @@
+2023-03-17 17:32:11,169 INFO    MainThread:46255 [wandb_setup.py:_flush():68] Configure stats pid to 46255
+2023-03-17 17:32:11,170 INFO    MainThread:46255 [wandb_setup.py:_flush():68] Loading settings from /kuacc/users/ajamshidi18/.config/wandb/settings
+2023-03-17 17:32:11,171 INFO    MainThread:46255 [wandb_setup.py:_flush():68] Loading settings from /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/settings
+2023-03-17 17:32:11,172 INFO    MainThread:46255 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-03-17 17:32:11,173 INFO    MainThread:46255 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'lane-change/my_REM/train.py', 'program': 'train.py'}
+2023-03-17 17:32:11,174 INFO    MainThread:46255 [wandb_init.py:_log_setup():478] Logging user logs to /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_173211-lueatb60/logs/debug.log
+2023-03-17 17:32:11,175 INFO    MainThread:46255 [wandb_init.py:_log_setup():479] Logging internal logs to /scratch/users/ajamshidi18/hpc_run/Ainaz/RL/lane-change/my_REM/wandb/run-20230317_173211-lueatb60/logs/debug-internal.log
+2023-03-17 17:32:11,175 INFO    MainThread:46255 [wandb_init.py:init():518] calling init triggers
+2023-03-17 17:32:11,176 INFO    MainThread:46255 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-03-17 17:32:11,177 INFO    MainThread:46255 [wandb_init.py:init():571] starting backend
+2023-03-17 17:32:11,178 INFO    MainThread:46255 [wandb_init.py:init():575] setting up manager
+2023-03-17 17:32:11,188 INFO    MainThread:46255 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-17 17:32:11,200 INFO    MainThread:46255 [wandb_init.py:init():582] backend started and connected
+2023-03-17 17:32:11,205 INFO    MainThread:46255 [wandb_init.py:init():670] updated telemetry
+2023-03-17 17:32:11,277 INFO    MainThread:46255 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-03-17 17:32:12,526 INFO    MainThread:46255 [wandb_run.py:_on_init():2121] communicating current version
+2023-03-17 17:32:13,442 INFO    MainThread:46255 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.14.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-17 17:32:13,443 INFO    MainThread:46255 [wandb_init.py:init():758] starting run threads in backend
+2023-03-17 17:32:26,244 INFO    MainThread:46255 [wandb_run.py:_console_start():2101] atexit reg
+2023-03-17 17:32:26,245 INFO    MainThread:46255 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-03-17 17:32:26,246 INFO    MainThread:46255 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-03-17 17:32:26,247 INFO    MainThread:46255 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-03-17 17:32:26,248 INFO    MainThread:46255 [wandb_init.py:init():798] run started, returning control to user process
+2023-03-17 17:32:41,677 WARNING MsgRouterThr:46255 [router.py:message_loop():77] message_loop has been closed
