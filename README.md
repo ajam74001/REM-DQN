@@ -1,1 +1,1 @@
-This is a Pytorch implementation of Random Ensemble Mixture (REM). 
+This is a Pytorch implementation of Random Ensemble Mixture (REM) model. 
